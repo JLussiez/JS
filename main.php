@@ -14,17 +14,17 @@
       <form>
          <button onclick="ex1()">Calcul</button> 
       </form>
-      <h2>Exercice 2</h2>
+      <h1>Exercice 2</h1>
       <form>
          <button onclick="ex2()">Calcul</button> 
       </form>
-      <h2>Exercice 3</h2>
+      <h1>Exercice 3</h1>
       <form>
          <button onclick="ex3()">Calcul</button> 
       </form>
-      <h2>Exercice 4</h2>
+      <h1>Exercice 4</h1>
       <form>
-         <button onclick="ex4()">Calcul</button> 
+         <button onclick="affiche4()">Calcul</button> 
       </form>
    </body>
 </html>

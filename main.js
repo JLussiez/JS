@@ -33,7 +33,15 @@ function ex3() {
 }
 
 //Fonction de l'exercice 4
-function ex4() {
-   var tableau = ['-2','1','4'];
+   var tab = [-2, 1, 4];
 
-}
+   function additionne4(x) {
+      return (x + 2);
+   }
+
+   function affiche4() {
+      alert(additionne4(tab[0]));
+      alert(additionne4(tab[tab.length -1]));
+   }
+
+//Fonction de l'exercice 5
