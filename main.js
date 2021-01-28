@@ -33,7 +33,7 @@ function ex3() {
 }
 
 //Fonction de l'exercice 4
-   var tab = [-2, 1, 4];
+   var tab = [-2,1,4];
 
    function additionne4(x) {
       return (x + 2);
@@ -45,3 +45,45 @@ function ex3() {
    }
 
 //Fonction de l'exercice 5
+function boucle() {
+
+   let tab = new Array(3);
+
+   for (i = 0; i < tab.length; i++)
+       tab[i] = i * i;
+       alert(tab);
+}
+
+function boucle2(){
+   
+   const longueur = parseInt(prompt("Entrez la longueur de votre boucle"));
+   let tab = [];
+
+   for(i=0;i< longueur; i++)
+       tab[i] = i * i;
+
+   alert(tab);
+
+}
+
+//Fonction de l'exercice 6
+var tab=[-2,1,4];
+var prem = soustrait(tab[0]);
+var der = soustrait(tab[tab.length-1]);
+function soustrait(x){
+   
+   if(x >= 0){
+
+   return resultat = x-2;
+
+   }else{
+      return resultat =" Nombre négatif!"
+
+   }
+
+}
+function affiche6(){
+
+    alert(prem);
+    alert(der);
+}

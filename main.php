@@ -26,5 +26,14 @@
       <form>
          <button onclick="affiche4()">Calcul</button> 
       </form>
+      <h1>Exercice 5</h1>
+      <form>
+         <button onclick="boucle()">Boucle1</button> 
+         <button onclick="boucle2()">Boucle2</button>
+      </form>
+      <h1>Exercice 6</h1>
+      <form>
+         <button onclick="affiche6()">Calcul</button> 
+      </form>
    </body>
 </html>
