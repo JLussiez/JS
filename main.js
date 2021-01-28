@@ -34,6 +34,6 @@ function ex3() {
 
 //Fonction de l'exercice 4
 function ex4() {
-   let tab = ['-2','1','4'];
+   var tableau = ['-2','1','4'];
 
 }
