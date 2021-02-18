@@ -87,3 +87,10 @@ function affiche6(){
     alert(prem);
     alert(der);
 }
+
+//Fonction de l'exercice 7
+function ex7(){
+   var ladate=new Date()
+   var tab_jour=new Array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi");
+   alert("Nous sommes un "+tab_jour[ladate.getDay()])
+}
